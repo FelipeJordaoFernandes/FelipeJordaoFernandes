@@ -1,4 +1,4 @@
-<h1 align="center">Olá, eu sou o Felipe Jordão 👋</h1>
+<h1 align="center">Olá, eu sou o Felipe Jordão</h1>
 
 <p align="center">
   Desenvolvedor Front-End focado na criação de interfaces responsivas,<br>
@@ -16,10 +16,10 @@
 
 ## Sobre mim
 
-- 🎓 Graduação em Análise e Desenvolvimento de Sistemas concluída na UniCesumar.
-- 💻 Aprofundo meus conhecimentos em desenvolvimento Front-End e React por meio das formações da Alura.
-- 🚀 Transformo aprendizado contínuo em projetos práticos, com atenção à arquitetura, experiência do usuário e qualidade de código.
-- 📍 Ibiporã, Paraná, Brasil.
+- Graduação em Análise e Desenvolvimento de Sistemas concluída na UniCesumar.
+- Aprofundo meus conhecimentos em desenvolvimento Front-End e React por meio das formações da Alura.
+- Transformo aprendizado contínuo em projetos práticos, com atenção à arquitetura, experiência do usuário e qualidade de código.
+- Ibiporã, Paraná, Brasil.
 
 ## Tecnologias
 
@@ -35,7 +35,7 @@
 
 ## Projetos em destaque
 
-### 🤖 Eden Androids
+### Eden Androids
 
 E-commerce fictício de androides humanoides desenvolvido como projeto autoral. A aplicação reúne uma experiência completa de catálogo, conta local, carrinho e checkout, com atenção especial à responsividade, acessibilidade e organização do código.
 
@@ -45,7 +45,7 @@ E-commerce fictício de androides humanoides desenvolvido como projeto autoral. 
 
 [Ver código](https://github.com/FelipeJordaoFernandes/eden-androids)
 
-### 🔴 Personal Pokédex
+### Personal Pokédex
 
 Pokédex pessoal criada para registrar e consultar Pokémon capturados. Consome dados da PokéAPI e oferece uma experiência responsiva com identidade visual própria.
 
@@ -55,7 +55,7 @@ Pokédex pessoal criada para registrar e consultar Pokémon capturados. Consome 
 
 [Ver aplicação](https://personal-pokedex.vercel.app/) · [Ver código](https://github.com/FelipeJordaoFernandes/personal-pokedex)
 
-### ✈️ Jornada Viagens
+### Jornada Viagens
 
 Site responsivo para uma agência de viagens fictícia, desenvolvido durante os estudos de HTML e CSS e posteriormente evoluído com JavaScript.
 
@@ -65,7 +65,7 @@ Site responsivo para uma agência de viagens fictícia, desenvolvido durante os 
 
 [Ver código](https://github.com/FelipeJordaoFernandes/jornada-viagens)
 
-### ✅ ToDo List
+### ToDo List
 
 Aplicação de checklist para organizar tarefas e estudos, desenvolvida durante a formação em React.
 
