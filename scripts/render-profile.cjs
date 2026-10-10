@@ -43,7 +43,7 @@ function makePanels(data) {
 }
 
 function picture(key, alt) {
-  return `<picture>\n    <source media="(max-width: 640px)" srcset="./assets/profile/mobile/${key}.webp">\n    <img src="./assets/profile/desktop/${key}.webp" width="900" alt="${escape(alt)}">\n  </picture>`;
+  return `<picture>\n    <source media="(max-width: 1011px)" srcset="./assets/profile/mobile/${key}.webp">\n    <img src="./assets/profile/desktop/${key}.webp" width="900" alt="${escape(alt)}">\n  </picture>`;
 }
 
 function makeReadme(data) {
@@ -58,6 +58,14 @@ async function main() {
   const data = JSON.parse(await fs.readFile(path.join(root, 'design/content.json'), 'utf8'));
   for (const key of [...data.projects, ...data.contacts, ...data.technologies].map((item) => item.id)) {
     if (!/^[a-z0-9-]+$/.test(key)) throw new Error(`Invalid asset identifier: ${key}`);
+  }
+  if (process.argv.includes('--readme-only')) {
+    const manifest = JSON.parse(await fs.readFile(path.join(root, 'design/assets.json'), 'utf8'));
+    manifest.breakpoint = 1011;
+    await fs.writeFile(path.join(root, 'README.md'), makeReadme(data));
+    await fs.writeFile(path.join(root, 'design/assets.json'), JSON.stringify(manifest, null, 2) + '\n');
+    console.log('README regenerated using existing assets.');
+    return;
   }
   const css = await fs.readFile(path.join(root, 'design/profile.css'), 'utf8');
   const base = pathToFileURL(path.join(root, 'design/')).href;
@@ -100,7 +108,7 @@ async function main() {
     await browser.close();
   }
   await fs.writeFile(path.join(root, 'README.md'), makeReadme(data));
-  await fs.writeFile(path.join(root, 'design/assets.json'), JSON.stringify({ fonts: ['Plus Jakarta Sans', 'Inter'], breakpoint: 640, deviceScaleFactor: 2, assets }, null, 2) + '\n');
+  await fs.writeFile(path.join(root, 'design/assets.json'), JSON.stringify({ fonts: ['Plus Jakarta Sans', 'Inter'], breakpoint: 1011, deviceScaleFactor: 2, assets }, null, 2) + '\n');
   console.log(JSON.stringify({ panels: assets.length, images: assets.length + 4, totalPanelBytes: assets.reduce((sum, item) => sum + item.bytes, 0) }));
 }
 

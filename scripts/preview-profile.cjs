@@ -9,7 +9,7 @@ const escape = (text) => text.replace(/[&<>]/g, (char) => ({ '&': '&amp;', '<': 
 async function main() {
   const readme = await fs.readFile(path.join(root, 'README.md'), 'utf8');
   const body = readme.split('<details>')[0] + `<details><summary>Sobre mim, projetos e contato em texto</summary><pre>${escape(readme.split('<details>')[1].replace(/<summary>.*<\/summary>/, '').replace('</details>', '').trim())}</pre></details>`;
-  const styles = `*{box-sizing:border-box}body{margin:0;font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--fg)}main{width:min(910px,100%);margin:auto;padding:32px}img{max-width:100%;vertical-align:middle}p{margin:0 0 16px}a{color:inherit}a:focus-visible{outline:3px solid #76b98d;outline-offset:4px}pre{white-space:pre-wrap;font:inherit}details{padding:12px 0}summary{cursor:pointer}@media(max-width:640px){main{padding:24px 41px}}`;
+  const styles = `*{box-sizing:border-box}body{margin:0;font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--fg)}main{width:min(910px,100%);margin:auto;padding:32px}img{max-width:100%;vertical-align:middle}p{margin:0 0 16px}a{color:inherit}a:focus-visible{outline:3px solid #76b98d;outline-offset:4px}pre{white-space:pre-wrap;font:inherit}details{padding:12px 0}summary{cursor:pointer}@media(max-width:1011px){main{width:min(480px,100%);padding:24px 41px}}`;
   const server = http.createServer(async (req, res) => {
     try {
       if (req.url === '/') {
@@ -39,7 +39,7 @@ async function main() {
       if (metrics.overflow) throw new Error(`Overflow at ${width}px`);
       if (metrics.images.some((image) => !image.alt)) throw new Error('Missing accessible image name');
       const firstPanel = metrics.images[0];
-      if (!firstPanel.currentSrc.includes(width <= 640 ? '/mobile/' : '/desktop/')) throw new Error('Wrong responsive asset');
+      if (!firstPanel.currentSrc.includes(width <= 1011 ? '/mobile/' : '/desktop/')) throw new Error('Wrong responsive asset');
       await page.screenshot({ path: path.join(root, `work/preview-${width}.png`), fullPage: true });
       if (width === 1280 || width === 390) {
         await page.screenshot({ path: path.join(root, `work/preview-top-${width}.png`) });

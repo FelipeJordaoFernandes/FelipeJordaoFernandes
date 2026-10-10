@@ -11,7 +11,7 @@ O README é uma composição de peças locais. O texto fica em `content.json`, a
 5. Executar `npm run preview` para conferir a composição em desktop, tablet e celular.
 6. Conferir o diff e a página pública depois da publicação.
 
-O gerador usa Plus Jakarta Sans nos títulos e Inter no corpo. As fontes são incorporadas à aparência das imagens, sem depender de fontes instaladas no computador do visitante. Há versões de 900 e 360 px, renderizadas em densidade 2×; o elemento `picture` seleciona a versão móvel até 640 px de viewport.
+O gerador usa Plus Jakarta Sans nos títulos e Inter no corpo. As fontes são incorporadas à aparência das imagens, sem depender de fontes instaladas no computador do visitante. Há versões de 900 e 360 px, renderizadas em densidade 2×; o elemento `picture` seleciona a versão móvel até 1011 px de viewport. O limite acompanha a coluna estreita do perfil real do GitHub em tablet. Para alterar somente os links ou o limite de seleção usando as peças existentes, executar `npm run assets -- --readme-only`.
 
 Cada card abre sua aplicação. O botão de código é um link independente. Os contatos também são links independentes, e uma seção expansível preserva o conteúdo selecionável, traduzível e pesquisável. Textos alternativos descrevem cada peça visual.
 
