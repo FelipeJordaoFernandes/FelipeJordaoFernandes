@@ -13,6 +13,8 @@ O README é uma composição de peças locais. O texto fica em `content.json`, a
 
 O gerador usa Plus Jakarta Sans nos títulos e Inter no corpo. As fontes são incorporadas à aparência das imagens, sem depender de fontes instaladas no computador do visitante. Há versões de 900 e 360 px, renderizadas em densidade 2×; o elemento `picture` seleciona a versão móvel até 1011 px de viewport. O limite acompanha a coluna estreita do perfil real do GitHub em tablet. Para alterar somente os links ou o limite de seleção usando as peças existentes, executar `npm run assets -- --readme-only`.
 
-Cada card abre sua aplicação. O botão de código é um link independente. Os contatos também são links independentes, e uma seção expansível preserva o conteúdo selecionável, traduzível e pesquisável. Textos alternativos descrevem cada peça visual.
+Cada card abre sua aplicação. O botão de código é um link independente, alinhado à esquerda. Os três botões de contato aparecem somente ao final, e uma seção expansível preserva o conteúdo selecionável, traduzível e pesquisável. Textos alternativos descrevem cada peça visual.
+
+O GitHub remove `target="_blank"` ao renderizar o README (conferido pelo endpoint oficial de Markdown em 2026-10-10). Não é possível impor uma nova guia pela composição; o visitante pode usar Ctrl/Cmd + clique ou o botão do meio nos links de sites. O link `mailto:` depende do aplicativo de e-mail configurado.
 
 A pasta `work/` contém apenas prévias locais ignoradas pelo Git. Os assets anteriores continuam preservados no repositório e no histórico. Esta escolha tipográfica pertence ao README; não define um novo padrão global no Obsidian.

@@ -6,12 +6,6 @@
 </p>
 
 <p align="center">
-  <a href="https://felipe-jordao-portfolio.vercel.app/"><img src="./assets/profile/actions/portfolio.webp" width="170" alt="Acessar Portfólio"></a>
-  <a href="https://www.linkedin.com/in/felipe-jordao-fernandes/"><img src="./assets/profile/actions/linkedin.webp" width="170" alt="Acessar LinkedIn"></a>
-  <a href="mailto:felipejordao137@gmail.com"><img src="./assets/profile/actions/email.webp" width="170" alt="Enviar e-mail"></a>
-</p>
-
-<p align="center">
   <picture>
     <source media="(max-width: 1011px)" srcset="./assets/profile/mobile/about.webp">
     <img src="./assets/profile/desktop/about.webp" width="900" alt="Sobre: Sou formado em Análise e Desenvolvimento de Sistemas pela UniCesumar e desenvolvo aplicações web com foco em React e JavaScript. Transformo ideias e aprendizado contínuo em experiências claras, funcionais e publicadas — com identidade visual, usabilidade e organização do código.">
@@ -46,7 +40,7 @@
   </picture></a>
 </p>
 
-<p align="right">
+<p align="left">
   <a href="https://github.com/FelipeJordaoFernandes/tela-de-login"><img src="./assets/profile/actions/code.webp" width="150" alt="Ver código de Tela de Login"></a>
 </p>
 
@@ -57,7 +51,7 @@
   </picture></a>
 </p>
 
-<p align="right">
+<p align="left">
   <a href="https://github.com/FelipeJordaoFernandes/personal-pokedex"><img src="./assets/profile/actions/code.webp" width="150" alt="Ver código de Personal Pokédex"></a>
 </p>
 
@@ -68,7 +62,7 @@
   </picture></a>
 </p>
 
-<p align="right">
+<p align="left">
   <a href="https://github.com/FelipeJordaoFernandes/ToDo-List"><img src="./assets/profile/actions/code.webp" width="150" alt="Ver código de ToDo List"></a>
 </p>
 
@@ -79,7 +73,7 @@
   </picture></a>
 </p>
 
-<p align="right">
+<p align="left">
   <a href="https://github.com/FelipeJordaoFernandes/eden-androids"><img src="./assets/profile/actions/code.webp" width="150" alt="Ver código de Eden Androids"></a>
 </p>
 
@@ -90,7 +84,7 @@
   </picture></a>
 </p>
 
-<p align="right">
+<p align="left">
   <a href="https://github.com/FelipeJordaoFernandes/cardapio-digital"><img src="./assets/profile/actions/code.webp" width="150" alt="Ver código de Cardápio Digital"></a>
 </p>
 
