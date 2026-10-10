@@ -1,12 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="184" height="64" viewBox="0 0 184 64" role="img" aria-labelledby="title desc">
-  <title id="title">CSS3</title>
-  <desc id="desc">Medalha CSS3, estilo</desc>
-  <rect x="1" y="1" width="182" height="62" rx="17" fill="#2a3530" stroke="#43544a" stroke-width="2"/>
-  <circle cx="31" cy="31" r="21" fill="#202824" stroke="#76b98d"/>
-  <path d="M19 16h24l-2.3 27-9.7 5-9.7-5z" fill="#1572b6"/>
-  <path d="M31 20v23l6-3 1.5-16H31" fill="#33a9dc"/>
-  <text x="24" y="38" fill="#fff" font-family="Inter,Segoe UI,sans-serif" font-size="13" font-weight="800">#</text>
-  <text x="62" y="28" fill="#edf3ed" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="700">CSS3</text>
-  <text x="62" y="45" fill="#b4c1b8" font-family="Inter,Segoe UI,sans-serif" font-size="10">estilo</text>
-  <path d="M62 54h96" stroke="#76b98d" stroke-width="2" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="264" height="84" viewBox="0 0 264 84" role="img" aria-labelledby="title desc">
+  <title id="title">CSS3</title><desc id="desc">Medalha CSS3, estilo</desc>
+  <rect x="1" y="1" width="262" height="82" rx="22" fill="#2a3530" stroke="#43544a" stroke-width="2"/><circle cx="43" cy="42" r="29" fill="#202824" stroke="#76b98d" stroke-width="1.5"/>
+  <path d="M27 21h32l-3 36-13 7-13-7z" fill="#1572b6"/><path d="M43 26v31l8-4 2-22H43" fill="#33a9dc"/><text x="34" y="51" fill="#fff" font-family="Inter,Segoe UI,sans-serif" font-size="18" font-weight="800">#</text>
+  <text x="86" y="38" fill="#edf3ed" font-family="Inter,Segoe UI,sans-serif" font-size="20" font-weight="700">CSS3</text><text x="86" y="61" fill="#b7cbb7" font-family="Inter,Segoe UI,sans-serif" font-size="13">estilo</text>
 </svg>
