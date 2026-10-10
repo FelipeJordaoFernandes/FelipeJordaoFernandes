@@ -28,14 +28,14 @@ Gosto de transformar ideias e aprendizado contínuo em experiências claras, fun
 ## Tecnologias
 
 <p align="center">
-  <img src="./assets/stack/react.svg" width="160" alt="React — interfaces">
-  <img src="./assets/stack/javascript.svg" width="160" alt="JavaScript — lógica">
+  <img src="./assets/stack/react.svg" width="136" alt="React — interfaces">
+  <img src="./assets/stack/javascript.svg" width="136" alt="JavaScript — lógica">
   <br>
-  <img src="./assets/stack/html5.svg" width="160" alt="HTML5 — estrutura">
-  <img src="./assets/stack/css3.svg" width="160" alt="CSS3 — estilo">
+  <img src="./assets/stack/html5.svg" width="136" alt="HTML5 — estrutura">
+  <img src="./assets/stack/css3.svg" width="136" alt="CSS3 — estilo">
   <br>
-  <img src="./assets/stack/vite.svg" width="160" alt="Vite — build">
-  <img src="./assets/stack/git.svg" width="160" alt="Git — versionamento">
+  <img src="./assets/stack/vite.svg" width="136" alt="Vite — build">
+  <img src="./assets/stack/git.svg" width="136" alt="Git — versionamento">
 </p>
 
 <p align="center">
