@@ -1,0 +1,142 @@
+{
+  "fonts": [
+    "Plus Jakarta Sans",
+    "Inter"
+  ],
+  "breakpoint": 640,
+  "deviceScaleFactor": 2,
+  "assets": [
+    {
+      "path": "assets/profile/desktop/hero.webp",
+      "width": 1800,
+      "height": 784,
+      "bytes": 78648
+    },
+    {
+      "path": "assets/profile/desktop/about.webp",
+      "width": 1800,
+      "height": 882,
+      "bytes": 110402
+    },
+    {
+      "path": "assets/profile/desktop/tech.webp",
+      "width": 1800,
+      "height": 826,
+      "bytes": 51520
+    },
+    {
+      "path": "assets/profile/desktop/principles.webp",
+      "width": 1800,
+      "height": 740,
+      "bytes": 77940
+    },
+    {
+      "path": "assets/profile/desktop/projects.webp",
+      "width": 1800,
+      "height": 440,
+      "bytes": 32340
+    },
+    {
+      "path": "assets/profile/desktop/login.webp",
+      "width": 1800,
+      "height": 724,
+      "bytes": 56098
+    },
+    {
+      "path": "assets/profile/desktop/pokedex.webp",
+      "width": 1800,
+      "height": 724,
+      "bytes": 61270
+    },
+    {
+      "path": "assets/profile/desktop/todo.webp",
+      "width": 1800,
+      "height": 724,
+      "bytes": 51298
+    },
+    {
+      "path": "assets/profile/desktop/eden.webp",
+      "width": 1800,
+      "height": 792,
+      "bytes": 58610
+    },
+    {
+      "path": "assets/profile/desktop/menu.webp",
+      "width": 1800,
+      "height": 724,
+      "bytes": 51852
+    },
+    {
+      "path": "assets/profile/desktop/contact.webp",
+      "width": 1800,
+      "height": 620,
+      "bytes": 44276
+    },
+    {
+      "path": "assets/profile/mobile/hero.webp",
+      "width": 720,
+      "height": 788,
+      "bytes": 45740
+    },
+    {
+      "path": "assets/profile/mobile/about.webp",
+      "width": 720,
+      "height": 1004,
+      "bytes": 89678
+    },
+    {
+      "path": "assets/profile/mobile/tech.webp",
+      "width": 720,
+      "height": 1072,
+      "bytes": 39692
+    },
+    {
+      "path": "assets/profile/mobile/principles.webp",
+      "width": 720,
+      "height": 1168,
+      "bytes": 69338
+    },
+    {
+      "path": "assets/profile/mobile/projects.webp",
+      "width": 720,
+      "height": 378,
+      "bytes": 24612
+    },
+    {
+      "path": "assets/profile/mobile/login.webp",
+      "width": 720,
+      "height": 662,
+      "bytes": 43428
+    },
+    {
+      "path": "assets/profile/mobile/pokedex.webp",
+      "width": 720,
+      "height": 662,
+      "bytes": 45736
+    },
+    {
+      "path": "assets/profile/mobile/todo.webp",
+      "width": 720,
+      "height": 662,
+      "bytes": 39964
+    },
+    {
+      "path": "assets/profile/mobile/eden.webp",
+      "width": 720,
+      "height": 662,
+      "bytes": 44870
+    },
+    {
+      "path": "assets/profile/mobile/menu.webp",
+      "width": 720,
+      "height": 662,
+      "bytes": 40240
+    },
+    {
+      "path": "assets/profile/mobile/contact.webp",
+      "width": 720,
+      "height": 524,
+      "bytes": 34720
+    }
+  ]
+}

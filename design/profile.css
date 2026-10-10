@@ -1,0 +1,90 @@
+@font-face { font-family: Inter; src: url('fonts/inter-latin.woff2') format('woff2'); font-weight: 100 900; }
+@font-face { font-family: Jakarta; src: url('fonts/plus-jakarta-sans-latin.woff2') format('woff2'); font-weight: 200 800; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { background: transparent; color: #edf3ed; font-family: Inter, sans-serif; -webkit-font-smoothing: antialiased; }
+.panel { position: relative; width: 900px; padding: 48px 54px; overflow: hidden; border-radius: 26px; background: #202824; }
+h1,h2,h3,p { margin: 0; }
+h1,h2,h3 { font-family: Jakarta,sans-serif; letter-spacing: -.045em; }
+h2 { font-size: 40px; font-weight: 750; line-height: 1.15; }
+.kicker { margin-bottom: 16px; color: #8fc5a0; font-size: 14px; font-weight: 650; letter-spacing: .14em; text-transform: uppercase; }
+.copy { color: #d5dfd7; font-size: 22px; line-height: 1.6; }
+.hero { display: flex; align-items: center; min-height: 362px; padding-block: 58px; }
+.hero-copy { position: relative; z-index: 1; width: 590px; }
+.hero h1 { font-size: 64px; line-height: 1.08; font-weight: 800; }
+.hero .role { margin: 19px 0 20px; color: #8fc5a0; font-size: 27px; font-weight: 650; }
+.hero .copy { max-width: 490px; font-size: 22px; }
+.hero img { position: absolute; right: 40px; bottom: 24px; width: 226px; }
+.hero::before { position: absolute; right: -100px; top: -85px; width: 410px; height: 410px; border-radius: 50%; background: #2a3530; content: ''; }
+.brand { display: flex; gap: 3px; align-items: baseline; margin-bottom: 28px; font: 800 29px Jakarta,sans-serif; letter-spacing: -.1em; }
+.brand i { color: #76b98d; font-style: normal; }
+.about h2 { max-width: 650px; margin-bottom: 26px; }
+.about p + p { margin-top: 18px; }
+.about .highlight { color: #8fc5a0; }
+.tech h2 { margin-bottom: 28px; }
+.tech-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+.medal { display: flex; align-items: center; gap: 15px; padding: 23px 18px; border: 1px solid #43544a; border-radius: 18px; background: #2a3530; }
+.medal svg { width: 36px; height: 36px; flex: none; }
+.medal strong { display: block; font-size: 21px; font-weight: 700; letter-spacing: -.025em; }
+.medal span { display: block; margin-top: 6px; color: #b7cbb7; font-size: 15px; }
+.principles h2 { margin-bottom: 30px; }
+.principle-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 26px; }
+.principle .index { display: block; margin-bottom: 13px; color: #8fc5a0; font-size: 18px; }
+.principle h3 { margin-bottom: 12px; font-size: 24px; letter-spacing: -.025em; }
+.principle p { color: #b7cbb7; font-size: 19px; line-height: 1.55; }
+.project-intro { padding-bottom: 38px; background: #2a3530; }
+.project-intro .copy { margin-top: 19px; max-width: 660px; }
+.project { display: flex; align-items: center; gap: 44px; background: #2a3530; }
+.project-copy { flex: 1; min-width: 0; }
+.project .project-id { margin-bottom: 20px; color: #8fc5a0; font: 700 17px Inter,sans-serif; letter-spacing: .08em; }
+.project h2 { margin-bottom: 16px; font-size: 42px; }
+.project .tag { margin-bottom: 22px; color: #b7cbb7; font-size: 17px; }
+.project .copy { font-size: 21px; }
+.project .cta { display: flex; align-items: center; gap: 12px; margin-top: 28px; color: #a6d3b4; font-size: 20px; font-weight: 650; }
+.project-icon { display: grid; place-items: center; width: 124px; height: 124px; flex: none; border-radius: 30px; background: #202824; color: #8fc5a0; }
+.project-icon svg { width: 65px; height: 65px; }
+.arrow { width: 23px; height: 23px; }
+.contact h2 { margin-bottom: 20px; }
+.contact .copy { max-width: 650px; }
+.contact .email { margin-top: 20px; color: #8fc5a0; font-size: 20px; }
+.action { display: flex; align-items: center; justify-content: center; gap: 13px; width: 190px; height: 60px; border: 1px solid #43544a; border-radius: 18px; background: #2a3530; color: #edf3ed; font-size: 17px; font-weight: 650; }
+.action svg { width: 23px; height: 23px; }
+.action.primary { background: #76b98d; color: #07100a; border-color: #76b98d; }
+.action.code { width: 190px; background: #202824; }
+@media (max-width: 640px) {
+  .panel { width: 360px; padding: 29px 26px; border-radius: 22px; }
+  .kicker { margin-bottom: 13px; font-size: 12px; letter-spacing: .11em; }
+  h2 { font-size: 28px; }
+  .copy { font-size: 18px; line-height: 1.55; }
+  .hero { display: block; min-height: 388px; padding-top: 27px; padding-bottom: 130px; }
+  .hero-copy { width: auto; }
+  .hero h1 { font-size: 37px; }
+  .hero .role { margin: 15px 0 18px; font-size: 21px; }
+  .hero .copy { max-width: 305px; font-size: 18px; }
+  .hero img { width: 105px; bottom: 17px; right: 21px; }
+  .hero::before { width: 220px; height: 220px; top: auto; bottom: -75px; right: -50px; }
+  .brand { margin-bottom: 22px; font-size: 26px; }
+  .about h2 { margin-bottom: 22px; }
+  .about p + p { margin-top: 18px; }
+  .tech h2 { margin-bottom: 22px; }
+  .tech-grid { grid-template-columns: repeat(2,1fr); gap: 10px; }
+  .medal { display: block; padding: 17px 13px; border-radius: 15px; }
+  .medal svg { width: 30px; height: 30px; margin-bottom: 12px; }
+  .medal strong { font-size: 18px; }
+  .medal span { font-size: 13px; }
+  .principles h2 { margin-bottom: 25px; }
+  .principle-grid { grid-template-columns: 1fr; gap: 25px; }
+  .principle .index { margin-bottom: 9px; font-size: 15px; }
+  .principle h3 { margin-bottom: 8px; font-size: 23px; }
+  .principle p { font-size: 18px; }
+  .project-intro { padding-bottom: 28px; }
+  .project-intro .copy { margin-top: 16px; }
+  .project { display: block; }
+  .project .project-id { margin-bottom: 15px; font-size: 14px; }
+  .project h2 { margin-bottom: 14px; font-size: 28px; }
+  .project .tag { margin-bottom: 19px; font-size: 14px; }
+  .project .copy { font-size: 18px; }
+  .project .cta { margin-top: 24px; font-size: 18px; }
+  .project-icon { display: none; }
+  .contact .email { font-size: 17px; }
+}

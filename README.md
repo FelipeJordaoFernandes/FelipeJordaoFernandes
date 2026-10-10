@@ -1,88 +1,171 @@
 <p align="center">
-  <img src="./assets/perfil-header-v3.webp" alt="Felipe Jordão, Desenvolvedor Front-End — interfaces responsivas, acessíveis e construídas com atenção aos detalhes. Broto aparece usando um notebook ao lado.">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/profile/mobile/hero.webp">
+    <img src="./assets/profile/desktop/hero.webp" width="900" alt="Felipe Jordão. Desenvolvedor Front-End. Interfaces responsivas, acessíveis e construídas com atenção aos detalhes.">
+  </picture>
 </p>
 
 <p align="center">
-  <a href="https://felipe-jordao-portfolio.vercel.app/"><img src="./assets/actions/portfolio.svg" width="170" alt="Acessar portfólio"></a>
-  <a href="https://www.linkedin.com/in/felipe-jordao-fernandes/"><img src="./assets/actions/linkedin.svg" width="170" alt="Acessar LinkedIn"></a>
-  <a href="mailto:felipejordao137@gmail.com"><img src="./assets/actions/email.svg" width="170" alt="Enviar e-mail"></a>
+  <a href="https://felipe-jordao-portfolio.vercel.app/"><img src="./assets/profile/actions/portfolio.webp" width="170" alt="Acessar Portfólio"></a>
+  <a href="https://www.linkedin.com/in/felipe-jordao-fernandes/"><img src="./assets/profile/actions/linkedin.webp" width="170" alt="Acessar LinkedIn"></a>
+  <a href="mailto:felipejordao137@gmail.com"><img src="./assets/profile/actions/email.webp" width="170" alt="Enviar e-mail"></a>
 </p>
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/profile/mobile/about.webp">
+    <img src="./assets/profile/desktop/about.webp" width="900" alt="Sobre: Sou formado em Análise e Desenvolvimento de Sistemas pela UniCesumar e desenvolvo aplicações web com foco em React e JavaScript. Transformo ideias e aprendizado contínuo em experiências claras, funcionais e publicadas — com identidade visual, usabilidade e organização do código.">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/profile/mobile/tech.webp">
+    <img src="./assets/profile/desktop/tech.webp" width="900" alt="Tecnologias: React, Interfaces; JavaScript, Lógica; HTML5, Estrutura; CSS3, Estilo; Vite, Build; Git, Versionamento.">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/profile/mobile/principles.webp">
+    <img src="./assets/profile/desktop/principles.webp" width="900" alt="Como trabalho: Clareza: Hierarquia visual e poucos elementos competindo pela atenção. Responsividade: Experiências pensadas para celular, tablet e desktop. Qualidade: Código organizado, acessibilidade, validação e publicação.">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/profile/mobile/projects.webp">
+    <img src="./assets/profile/desktop/projects.webp" width="900" alt="Projetos em destaque: cinco projetos que também estão no meu Portfólio.">
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://tela-de-login-jet-seven.vercel.app/"><picture>
+    <source media="(max-width: 640px)" srcset="./assets/profile/mobile/login.webp">
+    <img src="./assets/profile/desktop/login.webp" width="900" alt="Tela de Login. React · Experiência de acesso. Login e cadastro com validação de formulários, acesso demonstrativo local e um Broto que reage às interações. Abrir aplicação.">
+  </picture></a>
+</p>
+
+<p align="right">
+  <a href="https://github.com/FelipeJordaoFernandes/tela-de-login"><img src="./assets/profile/actions/code.webp" width="150" alt="Ver código de Tela de Login"></a>
+</p>
+
+<p align="center">
+  <a href="https://personal-pokedex.vercel.app/"><picture>
+    <source media="(max-width: 640px)" srcset="./assets/profile/mobile/pokedex.webp">
+    <img src="./assets/profile/desktop/pokedex.webp" width="900" alt="Personal Pokédex. React · Aplicação web. Coleção pessoal de Pokémon com cadastro, preenchimento automático, busca e organização dos cards capturados. Abrir aplicação.">
+  </picture></a>
+</p>
+
+<p align="right">
+  <a href="https://github.com/FelipeJordaoFernandes/personal-pokedex"><img src="./assets/profile/actions/code.webp" width="150" alt="Ver código de Personal Pokédex"></a>
+</p>
+
+<p align="center">
+  <a href="https://to-do-list-seven-lyart-36.vercel.app/"><picture>
+    <source media="(max-width: 640px)" srcset="./assets/profile/mobile/todo.webp">
+    <img src="./assets/profile/desktop/todo.webp" width="900" alt="ToDo List. React · Produtividade. Aplicação para criar, organizar e concluir tarefas em uma interface direta, responsiva e focada nos estudos. Abrir aplicação.">
+  </picture></a>
+</p>
+
+<p align="right">
+  <a href="https://github.com/FelipeJordaoFernandes/ToDo-List"><img src="./assets/profile/actions/code.webp" width="150" alt="Ver código de ToDo List"></a>
+</p>
+
+<p align="center">
+  <a href="https://eden-androids.vercel.app/"><picture>
+    <source media="(max-width: 640px)" srcset="./assets/profile/mobile/eden.webp">
+    <img src="./assets/profile/desktop/eden.webp" width="900" alt="Eden Androids. React · E-commerce. E-commerce conceitual de androides que combina narrativa de marca, catálogo, conta local, carrinho e experiência de compra. Abrir aplicação.">
+  </picture></a>
+</p>
+
+<p align="right">
+  <a href="https://github.com/FelipeJordaoFernandes/eden-androids"><img src="./assets/profile/actions/code.webp" width="150" alt="Ver código de Eden Androids"></a>
+</p>
+
+<p align="center">
+  <a href="https://cardapio-digital-five-tau.vercel.app/"><picture>
+    <source media="(max-width: 640px)" srcset="./assets/profile/mobile/menu.webp">
+    <img src="./assets/profile/desktop/menu.webp" width="900" alt="Cardápio Digital. React · Interface comercial. Cardápio mobile-first para lanchonetes, com categorias visuais, produtos e fluxo de carrinho. Abrir aplicação.">
+  </picture></a>
+</p>
+
+<p align="right">
+  <a href="https://github.com/FelipeJordaoFernandes/cardapio-digital"><img src="./assets/profile/actions/code.webp" width="150" alt="Ver código de Cardápio Digital"></a>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/profile/mobile/contact.webp">
+    <img src="./assets/profile/desktop/contact.webp" width="900" alt="Vamos conversar sobre Front-End, projetos e oportunidades profissionais. E-mail: felipejordao137@gmail.com.">
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://felipe-jordao-portfolio.vercel.app/"><img src="./assets/profile/actions/portfolio.webp" width="170" alt="Acessar Portfólio"></a>
+  <a href="https://www.linkedin.com/in/felipe-jordao-fernandes/"><img src="./assets/profile/actions/linkedin.webp" width="170" alt="Acessar LinkedIn"></a>
+  <a href="mailto:felipejordao137@gmail.com"><img src="./assets/profile/actions/email.webp" width="170" alt="Enviar e-mail"></a>
+</p>
+
+<details>
+<summary>Sobre mim, projetos e contato em texto</summary>
+
+### Felipe Jordão
+
+Desenvolvedor Front-End. Interfaces responsivas, acessíveis e construídas com atenção aos detalhes.
 
 ### Sobre
 
-Sou formado em Análise e Desenvolvimento de Sistemas pela UniCesumar e desenvolvo aplicações web com foco em **React** e **JavaScript**.
+Sou formado em Análise e Desenvolvimento de Sistemas pela UniCesumar e desenvolvo aplicações web com foco em React e JavaScript.
 
-Gosto de transformar ideias e aprendizado contínuo em experiências claras, funcionais e publicadas — equilibrando identidade visual, usabilidade, acessibilidade e organização do código. Meu objetivo é criar interfaces agradáveis de usar, fáceis de compreender e consistentes em diferentes telas.
+Transformo ideias e aprendizado contínuo em experiências claras, funcionais e publicadas — com identidade visual, usabilidade e organização do código.
 
 ### Tecnologias
 
-<p align="center">
-  <img src="./assets/stack/react.svg" width="224" alt="React — interfaces">
-  <img src="./assets/stack/javascript.svg" width="224" alt="JavaScript — lógica">
-  <br>
-  <img src="./assets/stack/html5.svg" width="224" alt="HTML5 — estrutura">
-  <img src="./assets/stack/css3.svg" width="224" alt="CSS3 — estilo">
-  <br>
-  <img src="./assets/stack/vite.svg" width="224" alt="Vite — build">
-  <img src="./assets/stack/git.svg" width="224" alt="Git — versionamento">
-</p>
-
-<p align="center">
-  <sub>React e JavaScript no centro do trabalho, com HTML, CSS, Vite e Git sustentando o desenvolvimento.</sub>
-</p>
+React · JavaScript · HTML5 · CSS3 · Vite · Git
 
 ### Como trabalho
 
-- **Clareza** — hierarquia visual e poucos elementos competindo pela atenção.
-- **Responsividade** — experiências pensadas para celular, tablet e desktop.
-- **Qualidade** — código organizado, acessibilidade, validação e publicação.
+- **Clareza:** Hierarquia visual e poucos elementos competindo pela atenção.
+- **Responsividade:** Experiências pensadas para celular, tablet e desktop.
+- **Qualidade:** Código organizado, acessibilidade, validação e publicação.
 
-### Projetos em destaque
+### Projetos
 
-A seleção abaixo acompanha os projetos apresentados no meu [Portfólio](https://felipe-jordao-portfolio.vercel.app/).
+#### Tela de Login
 
-#### 01 — Tela de Login
-
-**React · Experiência de acesso**
-
-Login e cadastro com validação de formulários, acesso demonstrativo local e um Broto que reage às interações.
+React · Experiência de acesso. Login e cadastro com validação de formulários, acesso demonstrativo local e um Broto que reage às interações.
 
 [Ver aplicação](https://tela-de-login-jet-seven.vercel.app/) · [Ver código](https://github.com/FelipeJordaoFernandes/tela-de-login)
 
-#### 02 — Personal Pokédex
+#### Personal Pokédex
 
-**React · Aplicação web**
-
-Coleção pessoal de Pokémon com cadastro, preenchimento automático, busca e organização dos cards capturados.
+React · Aplicação web. Coleção pessoal de Pokémon com cadastro, preenchimento automático, busca e organização dos cards capturados.
 
 [Ver aplicação](https://personal-pokedex.vercel.app/) · [Ver código](https://github.com/FelipeJordaoFernandes/personal-pokedex)
 
-#### 03 — ToDo List
+#### ToDo List
 
-**React · Produtividade**
-
-Aplicação para criar, organizar e concluir tarefas em uma interface direta, responsiva e focada nos estudos.
+React · Produtividade. Aplicação para criar, organizar e concluir tarefas em uma interface direta, responsiva e focada nos estudos.
 
 [Ver aplicação](https://to-do-list-seven-lyart-36.vercel.app/) · [Ver código](https://github.com/FelipeJordaoFernandes/ToDo-List)
 
-#### 04 — Eden Androids
+#### Eden Androids
 
-**React · E-commerce**
-
-E-commerce conceitual de androides que combina narrativa de marca, catálogo, conta local, carrinho e experiência de compra.
+React · E-commerce. E-commerce conceitual de androides que combina narrativa de marca, catálogo, conta local, carrinho e experiência de compra.
 
 [Ver aplicação](https://eden-androids.vercel.app/) · [Ver código](https://github.com/FelipeJordaoFernandes/eden-androids)
 
-#### 05 — Cardápio Digital
+#### Cardápio Digital
 
-**React · Interface comercial**
-
-Cardápio mobile-first para lanchonetes, com categorias visuais, produtos e fluxo de carrinho.
+React · Interface comercial. Cardápio mobile-first para lanchonetes, com categorias visuais, produtos e fluxo de carrinho.
 
 [Ver aplicação](https://cardapio-digital-five-tau.vercel.app/) · [Ver código](https://github.com/FelipeJordaoFernandes/cardapio-digital)
 
 ### Contato
 
-Estou disponível para conversar sobre desenvolvimento Front-End, projetos e oportunidades profissionais.
+Vamos conversar sobre Front-End, projetos e oportunidades profissionais.
 
-[LinkedIn](https://www.linkedin.com/in/felipe-jordao-fernandes/) · [felipejordao137@gmail.com](mailto:felipejordao137@gmail.com)
+[Portfólio](https://felipe-jordao-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/felipe-jordao-fernandes/) · [E-mail](mailto:felipejordao137@gmail.com)
+
+</details>

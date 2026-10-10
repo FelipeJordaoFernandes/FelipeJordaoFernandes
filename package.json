@@ -1,0 +1,13 @@
+{
+  "name": "felipe-github-profile",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "assets": "node scripts/render-profile.cjs",
+    "preview": "node scripts/preview-profile.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "sharp": "0.35.5"
+  }
+}

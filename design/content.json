@@ -1,0 +1,35 @@
+{
+  "name": "Felipe Jordão",
+  "role": "Desenvolvedor Front-End",
+  "tagline": "Interfaces responsivas, acessíveis e construídas com atenção aos detalhes.",
+  "about": [
+    "Sou formado em Análise e Desenvolvimento de Sistemas pela UniCesumar e desenvolvo aplicações web com foco em React e JavaScript.",
+    "Transformo ideias e aprendizado contínuo em experiências claras, funcionais e publicadas — com identidade visual, usabilidade e organização do código."
+  ],
+  "principles": [
+    { "title": "Clareza", "text": "Hierarquia visual e poucos elementos competindo pela atenção." },
+    { "title": "Responsividade", "text": "Experiências pensadas para celular, tablet e desktop." },
+    { "title": "Qualidade", "text": "Código organizado, acessibilidade, validação e publicação." }
+  ],
+  "technologies": [
+    { "id": "react", "name": "React", "label": "Interfaces" },
+    { "id": "javascript", "name": "JavaScript", "label": "Lógica" },
+    { "id": "html5", "name": "HTML5", "label": "Estrutura" },
+    { "id": "css3", "name": "CSS3", "label": "Estilo" },
+    { "id": "vite", "name": "Vite", "label": "Build" },
+    { "id": "git", "name": "Git", "label": "Versionamento" }
+  ],
+  "contacts": [
+    { "id": "portfolio", "name": "Portfólio", "url": "https://felipe-jordao-portfolio.vercel.app/" },
+    { "id": "linkedin", "name": "LinkedIn", "url": "https://www.linkedin.com/in/felipe-jordao-fernandes/" },
+    { "id": "email", "name": "E-mail", "url": "mailto:felipejordao137@gmail.com" }
+  ],
+  "projects": [
+    { "id": "login", "title": "Tela de Login", "tag": "React · Experiência de acesso", "description": "Login e cadastro com validação de formulários, acesso demonstrativo local e um Broto que reage às interações.", "url": "https://tela-de-login-jet-seven.vercel.app/", "code": "https://github.com/FelipeJordaoFernandes/tela-de-login" },
+    { "id": "pokedex", "title": "Personal Pokédex", "tag": "React · Aplicação web", "description": "Coleção pessoal de Pokémon com cadastro, preenchimento automático, busca e organização dos cards capturados.", "url": "https://personal-pokedex.vercel.app/", "code": "https://github.com/FelipeJordaoFernandes/personal-pokedex" },
+    { "id": "todo", "title": "ToDo List", "tag": "React · Produtividade", "description": "Aplicação para criar, organizar e concluir tarefas em uma interface direta, responsiva e focada nos estudos.", "url": "https://to-do-list-seven-lyart-36.vercel.app/", "code": "https://github.com/FelipeJordaoFernandes/ToDo-List" },
+    { "id": "eden", "title": "Eden Androids", "tag": "React · E-commerce", "description": "E-commerce conceitual de androides que combina narrativa de marca, catálogo, conta local, carrinho e experiência de compra.", "url": "https://eden-androids.vercel.app/", "code": "https://github.com/FelipeJordaoFernandes/eden-androids" },
+    { "id": "menu", "title": "Cardápio Digital", "tag": "React · Interface comercial", "description": "Cardápio mobile-first para lanchonetes, com categorias visuais, produtos e fluxo de carrinho.", "url": "https://cardapio-digital-five-tau.vercel.app/", "code": "https://github.com/FelipeJordaoFernandes/cardapio-digital" }
+  ],
+  "contactText": "Vamos conversar sobre Front-End, projetos e oportunidades profissionais."
+}
