@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184" height="64" viewBox="0 0 184 64" role="img" aria-labelledby="title desc">
+  <title id="title">Git</title>
+  <desc id="desc">Medalha Git, versionamento</desc>
+  <rect x="1" y="1" width="182" height="62" rx="17" fill="#2a3530" stroke="#43544a" stroke-width="2"/>
+  <circle cx="31" cy="31" r="21" fill="#202824" stroke="#76b98d"/>
+  <rect x="18" y="18" width="26" height="26" rx="5" fill="#f05032" transform="rotate(45 31 31)"/>
+  <path d="M25 24l12 12M31 30v10" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="25" cy="24" r="2.8" fill="#fff"/>
+  <circle cx="37" cy="36" r="2.8" fill="#fff"/>
+  <circle cx="31" cy="40" r="2.8" fill="#fff"/>
+  <text x="62" y="28" fill="#edf3ed" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="700">Git</text>
+  <text x="62" y="45" fill="#b4c1b8" font-family="Inter,Segoe UI,sans-serif" font-size="10">versionamento</text>
+  <path d="M62 54h96" stroke="#76b98d" stroke-width="2" stroke-linecap="round"/>
+</svg>

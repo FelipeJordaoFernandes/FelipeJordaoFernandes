@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184" height="64" viewBox="0 0 184 64" role="img" aria-labelledby="title desc">
+  <title id="title">Vite</title>
+  <desc id="desc">Medalha Vite, build</desc>
+  <rect x="1" y="1" width="182" height="62" rx="17" fill="#2a3530" stroke="#43544a" stroke-width="2"/>
+  <circle cx="31" cy="31" r="21" fill="#202824" stroke="#76b98d"/>
+  <path d="M16 18l15 28 16-28-16 4z" fill="#646cff"/>
+  <path d="M33 15l-9 18h7l-3 14 12-21h-7l5-11z" fill="#ffdc62"/>
+  <text x="62" y="28" fill="#edf3ed" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="700">Vite</text>
+  <text x="62" y="45" fill="#b4c1b8" font-family="Inter,Segoe UI,sans-serif" font-size="10">build</text>
+  <path d="M62 54h96" stroke="#76b98d" stroke-width="2" stroke-linecap="round"/>
+</svg>

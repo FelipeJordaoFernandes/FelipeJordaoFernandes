@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184" height="64" viewBox="0 0 184 64" role="img" aria-labelledby="title desc">
+  <title id="title">JavaScript</title>
+  <desc id="desc">Medalha JavaScript, lógica</desc>
+  <rect x="1" y="1" width="182" height="62" rx="17" fill="#2a3530" stroke="#43544a" stroke-width="2"/>
+  <circle cx="31" cy="31" r="21" fill="#202824" stroke="#76b98d"/>
+  <rect x="19" y="19" width="24" height="24" rx="5" fill="#f7df1e"/>
+  <text x="23" y="38" fill="#202824" font-family="Inter,Segoe UI,sans-serif" font-size="12" font-weight="800">JS</text>
+  <text x="62" y="28" fill="#edf3ed" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="700">JavaScript</text>
+  <text x="62" y="45" fill="#b4c1b8" font-family="Inter,Segoe UI,sans-serif" font-size="10">lógica</text>
+  <path d="M62 54h96" stroke="#76b98d" stroke-width="2" stroke-linecap="round"/>
+</svg>
